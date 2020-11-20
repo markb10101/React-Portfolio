@@ -14,7 +14,6 @@ const ProjectCard = (props) => {
 
   const screenJSX = (screenNumber) => {
     switch (screenNumber) {
-      case 0: return screen0;
       case 1: return screen1;
       case 2: return screen2;
       case 3: return screen3;
