@@ -5,8 +5,9 @@ import { ReactComponent as GitHub } from "../../assets/svgs/logo-github.svg";
 
 import screen0 from "../../assets/images/screenDada.jpg";
 import screen1 from "../../assets/images/screenBeer.jpg";
-import screen2 from "../../assets/images/screenCalc.jpg";
-import screen3 from "../../assets/images/screenMoai.jpg";
+import screen2 from "../../assets/images/screenMazeGame.jpg";
+import screen3 from "../../assets/images/screenCalc.jpg";
+import screen4 from "../../assets/images/screenMoai.jpg";
 
 const ProjectCard = (props) => {
 
@@ -17,6 +18,7 @@ const ProjectCard = (props) => {
       case 1: return screen1;
       case 2: return screen2;
       case 3: return screen3;
+      case 4: return screen4;
       default: return screen0;
     }
   }

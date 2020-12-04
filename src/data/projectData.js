@@ -15,7 +15,13 @@ export const projectsArr = [
         liveSrc: "https://beerdog4u.web.app/",
         codeSrc: "https://github.com/markb10101/Beer4U-BrewDog-API"
     },
-
+    {
+        title: "Maze Game",
+        description: "A PacMan-like maze game in functional ES6+ javascript, without canvas. Guide the astronaut to collect space-gold whilst avoiding the buggy aliens.",
+        alt: "Maze Game Screenshot",
+        liveSrc: "https://github.com/markb10101/maze_game",
+        codeSrc: "https://github.com/markb10101/maze_game"
+    },
     {
         title: "Calculator",
         description: "A working calculator in HTML5, CSS and Javascript. This was the first javascript project I worked on. It was mostly coded in an afternoon, styled with CSS the following day and then far too much time was spent figuring out how to get the screen-glare effect to sit on top of the numbers!",
