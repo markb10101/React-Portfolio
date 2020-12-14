@@ -8,6 +8,7 @@ import screen1 from "../../assets/images/screenBeer.jpg";
 import screen2 from "../../assets/images/screenMazeGame.jpg";
 import screen3 from "../../assets/images/screenCalc.jpg";
 import screen4 from "../../assets/images/screenMoai.jpg";
+import screen5 from "../../assets/images/screenMorse.jpg";
 
 const ProjectCard = (props) => {
 
@@ -19,6 +20,7 @@ const ProjectCard = (props) => {
       case 2: return screen2;
       case 3: return screen3;
       case 4: return screen4;
+      case 5: return screen5;
       default: return screen0;
     }
   }

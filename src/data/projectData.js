@@ -15,14 +15,7 @@ export const projectsArr = [
         liveSrc: "https://beerdog4u.web.app/",
         codeSrc: "https://github.com/markb10101/Beer4U-BrewDog-API"
     },
-    {
-        title: "Morse Code",
-        description: "A Morse Code <-> English Translator App coded with a TDD approach. Tests were written first, using Jest",
-        alt: "Morse Code Screenshot",
-        imgSrc: "./images/screen-morse.jpg",
-        liveSrc: "https://morsecode.markbirchall.net",
-        codeSrc: "https://github.com/markb10101/Morse-Code-TDD"
-    },
+
     {
         title: "Maze Game",
         description: "A PacMan-like maze game in functional ES6+ javascript, without canvas. Guide the astronaut to collect space-gold whilst avoiding the buggy aliens.",
@@ -44,6 +37,13 @@ export const projectsArr = [
         alt: "Tug Of Moai Screenshot",
         liveSrc: "https://tugofmoai.markbirchall.net",
         codeSrc: "https://github.com/markb10101/Tug-of-War-Challenge"
-    }
+    },
+    {
+        title: "Morse Code",
+        description: "A Morse Code <-> English Translator App coded with a TDD approach. Tests were written first, using Jest",
+        alt: "Morse Code Screenshot",
+        liveSrc: "https://morsecode.markbirchall.net",
+        codeSrc: "https://github.com/markb10101/Morse-Code-TDD"
+    },
 
 ];
